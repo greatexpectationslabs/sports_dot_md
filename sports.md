@@ -4,7 +4,7 @@
 Here have a QR with all the links
 
 
-<img src="qr.png" width="150" style="image-rendering:pixelated;">
+<img src="./qr.png" width="150" style="image-rendering:pixelated;">
 
 
 ref: https://pastebin.com/raw/<mark>eXquV5nS</mark>
@@ -129,5 +129,3 @@ mind.
 * Why you should shove your house through an `rsyslog` concentrator.
 * Clean ops gallows humour -- what's a joke is I think this can be cleaned up.
 * Incident response tales
-
-
