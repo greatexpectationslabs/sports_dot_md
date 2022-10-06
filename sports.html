@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang xml:lang>
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>(✿◕‿◕)</title>
+  <style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: 1;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+width: 0.8em;
+margin: 0 0.8em 0.2em -1.6em;
+vertical-align: middle;
+}
+.display.math{display: block; text-align: center; margin: 0.5rem auto;}
+</style>
+  <style type="text/css">html,
+body {
+background-image: none !important;
+background-color: rgba(40, 42, 54, 1) !important;
+}
+body * {
+color: rgba(248, 248, 242, 1) !important;
+background-color: rgba(40, 42, 54, 1) !important;
+text-indent: 8
+}
+a,
+a * {
+color: rgba(80, 250, 123, 1) !important;
+background-color: transparent !important;
+}
+a:hover,
+a:hover *,
+a:visited:hover,
+a:visited:hover *,
+span[onclick]:hover,
+div[onclick]:hover,
+[role="link"]:hover,
+[role="link"]:hover *,
+[role="button"]:hover *,
+[role="menuitem"]:hover,
+[role="menuitem"]:hover *,
+.link:hover,
+.link:hover * {
+color: rgba(241, 250, 140, 1) !important;
+}
+a:visited,
+a:visited * {
+color: rgba(98, 114, 164, 1) !important;
+}
+h1,
+[id*="headline"],
+[class*="headline"],
+[id*="header"],
+[class*="header"],
+[class*="header"] td {
+color: rgba(248, 248, 242, 1) !important;
+text-align: center
+}
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+[id*="headline"],
+[class*="headline"],
+[id*="header"],
+[class*="header"],
+[class*="header"] td {
+color: rgba(248, 248, 242, 1) !important;
+text-align: left
+}
+table {
+background-color: rgba(40, 42, 54, 1) !important;
+}
+[id*="overlay"],
+[id*="lightbox"],
+blockquote {
+background-color: rgba(68, 71, 90, 1) !important;
+}
+pre,
+dl {
+background-color: rgba(68, 71, 90, 1) !important;
+}
+input,
+select,
+button,
+[role="button"],
+a.button,
+a.submit,
+a.BigButton,
+a.TabLink,
+.install[onclick] {
+text-indent: 5px;
+appearance: none !important;
+-moz-appearance: none !important;
+-webkit-appearance: none !important;
+background: rgba(68, 71, 90, 1) !important;
+}
+textarea {
+appearance: none !important;
+-moz-appearance: none !important;
+-webkit-appearance: none !important;
+background: rgba(68, 71, 90, 1) !important;
+}
+div,
+ul,
+li {
+background-image: none !important;
+}
+a.highlight,
+a.highlight *,
+a.active,
+a.active *,
+.selected,
+.selected *,
+[href="#"] {
+font-weight: bold !important;
+
+color: rgba(248, 248, 242, 1) !important;
+}
+</style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">(✿◕‿◕)</h1>
+</header>
+<h1 id="some-cool-things-i-learned-about-endurance-sports">Some cool
+things I learned about Endurance Sports</h1>
+<center>
+<p>Here have a QR with all the links</p>
+<p><img src="data:image/png;base64,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pwICyymPiwQIECBAgMATBASWJ2zBDAQIECBAgMCpgMByyuMiAQIECBAg8AQBgeUJWzADAQIECBAgcCogsJzyuEiAAAECBAg8QUBgecIWzECAAAECBAicCggspzwuEiBAgAABAk8QEFiesAUzECBAgAABAqcCr9OrFy4ex3Hhru9vGWN8f/HClbT/hRZlt6RnLxtskQenu1/Zv3v23fun794if2L/Omb32dN3L50/7f+vqH55ScAXlktMbiJAgAABAgQ6BQSWTn29CRAgQIAAgUsCAsslJjcRIECAAAECnQICS6e+3gQIECBAgMAlAYHlEpObCBAgQIAAgU4BgaVTX28CBAgQIEDgkoDAconJTQQIECBAgECngMDSqa83AQIECBAgcElAYLnE5CYCBAgQIECgU0Bg6dTXmwABAgQIELgkILBcYnITAQIECBAg0CkgsHTq602AAAECBAhcEhBYLjG5iQABAgQIEOgUEFg69fUmQIAAAQIELgkILJeY3ESAAAECBAh0Crw6m3/1Po4jGmGMEdV3FqdnT2dP7dL50/7p+dP65Pw7nz11/6pf2a979uS9Xd3+jnev8xndu0v7p3a+sKSC6gkQIECAAIFyAYGlnFgDAgQIECBAIBUQWFJB9QQIECBAgEC5gMBSTqwBAQIECBAgkAoILKmgegIECBAgQKBcQGApJ9aAAAECBAgQSAUEllRQPQECBAgQIFAuILCUE2tAgAABAgQIpAICSyqongABAgQIECgXEFjKiTUgQIAAAQIEUgGBJRVUT4AAAQIECJQLCCzlxBoQIECAAAECqYDAkgqqJ0CAAAECBMoFBJZyYg0IECBAgACBVEBgSQXVEyBAgAABAuUC4/j9U95Fg38VGGP86+9X+WX3q5P6dc7fPXvaf5V39Ls5090nfmnv78509ffJ7F890vnT/lfP+dT7Ur/Oc6W7S8/uC0vn9vUmQIAAAQIELgkILJeY3ESAAAECBAh0Cggsnfp6EyBAgAABApcEBJZLTG4iQIAAAQIEOgUElk59vQkQIECAAIFLAgLLJSY3ESBAgAABAp0CAkunvt4ECBAgQIDAJQGB5RKTmwgQIECAAIFOAYGlU19vAgQIECBA4JKAwHKJyU0ECBAgQIBAp4DA0qmvNwECBAgQIHBJQGC5xOQmAgQIECBAoFNAYOnU15sAAQIECBC4JCCw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" width="150" style="image-rendering:pixelated;"></p>
+<p>ref: https://pastebin.com/raw/<mark>eXquV5nS</mark></p>
+<p>（＾～＾；）</p>
+<p>A quick <strong>“oh cool”</strong> before we start: <em>Barnum’s
+Animal Crackers</em> are ironically vegan.</p>
+</center>
+<h2 id="lets-outline-some-things">Let’s outline some things</h2>
+<h3 id="application-of-..-progressive-overload"><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7425879/">“…application
+of .. progressive overload…”</a></h3>
+<p>tl;dr Progressive overload i.e. “harder than last time”, may it be in
+plain intensity, duration, or even weekly volume still matters.</p>
+<p>Both meeting yourself where you are at that moment in time, and
+challenge yourself; they equally do carry over to every type of
+activity, so be kind to you, and be kind to tomorrow you. cool let’s
+keep that up. <code>^_^</code></p>
+<center>
+<code>¯\_(ツ)_/¯</code>
+</center>
+<h3 id="some-cool-resource-for-maths-people"><a href="https://fellrnr.com/wiki/Main_Page">“Some cool resource for maths
+people”</a></h3>
+<p>tl;dr cool we can maths up a representation of our average work, and
+either match or press it based upon data, and maybe even glean what
+activities may hender our progress, so we can leave that ego at the
+door, and be optimal.</p>
+<center>
+<code>ᕕ( ᐛ )ᕗ</code>
+</center>
+<p>So back to the prior, this things such as <a href="https://fellrnr.com/wiki/Modeling_Human_Performance">“Modeling
+Human Performance”</a> made it more easy for me to assess weekly
+“mileage” in a few ways, allows finding a balance and challenge pretty
+swish.</p>
+<center>
+<code>＼(￣▽￣)／</code>
+</center>
+<p>Also knowing <a href="https://fellrnr.com/wiki/Training_Monotony">“training Monotony is
+not about boredom…”</a> would have helped me better plan variety and
+compare week to week if I knew how to do this better me-thinks.</p>
+<center>
+<code>(^_−)</code>
+</center>
+<h2 id="so-what-are-we-supporting-even">So what are we supporting
+even?</h2>
+<p>Sort of glad you asked <code>^_^</code> I don’t really know how to
+best answer that besides the blunt “be present”. I have things to do,
+and a lot of folks I adore; so I guess that’s why I do this and other
+stuff too.</p>
+<center>
+<code>ᕙ( •̀ ᗜ •́ )ᕗ</code>
+</center>
+<h2 id="okay-we-need-operational-perams-now-maam-can-you-please-hurry-up-with-those">Okay
+we need operational perams now ma’am, can you please hurry up with
+those?</h2>
+<p>tl;dr <em>moderate aerobic activity</em>: <em>150min a week plus
+begins to show you some benefit,</em> … <em>300min is also reported to
+do more;</em> … <em>if</em> you’re doing <em>light_activities</em>
+<em>(</em> rather than <em><a href="https://www.heart.org/en/healthy-living/fitness/fitness-basics/target-heart-rates">Z2</a></em>
+heart rate <em>)</em>, <em>double it</em></p>
+<p>To support this please find the following:</p>
+<ul>
+<li><a href="https://www.heart.org/en/healthy-living/fitness/fitness-basics/aha-recs-for-physical-activity-in-adults">Some
+guidelines for physical activity in everybody</a></li>
+<li><a href="https://www.nhs.uk/live-well/exercise/exercise-guidelines/physical-activity-guidelines-for-adults-aged-19-to-64/">Some
+more guidelines for physical activity, but this one is particular to
+<em>“grown folk”</em></a></li>
+</ul>
+<h3 id="you-alluded-to-benefits-what-are-you-on-about-even">You alluded
+to “benefits”, what are you on about even?</h3>
+<p>So literature indicates through empirical testing, you’ll likely get
+improved cardiac fitness, and some folks self report better coping with
+physical and mental health; cool. Right?</p>
+<p>My anecdotal takeaway: comprehensive care of my health and well-being
+is one of the many coping mechanisms I leverage to get through this
+weird thing we call existing. Mental health is hard, and staying active
+is a thing from within me that only I need to contribute to for it to be
+impactful; luckily it’s in a positive way too, or kind healthcare
+professionals would probably have my head.</p>
+<h2 id="the-goal-of-giving-you-this">The goal of giving you this</h2>
+<ul>
+<li>I want to provide you with the information to both support a choice,
+and a means to kindly exploit your body for great good that has the
+possibility to impact your days for the <em>better</em>.</li>
+<li>I hope you’ll have resources to support your growing intrigue</li>
+<li>I hope to provide strong reason why just meeting yourself where you
+are each day and doing something that might sound hard can become a
+habit, and one worth cultivating</li>
+</ul>
+<h2 id="one-key-takeaway">One key takeaway</h2>
+<p>“harder than last time” ~<a href="https://www.youtube.com/watch?v=vKMzEQ0lBmg">Coach Chef Greg
+Douchete</a></p>
+<h2 id="other-things-id-love-to-talk-with-you-about">Other things I’d
+love to talk with you about</h2>
+<p>Really, I can ramble a bit, if you like to gab here are some things
+that came to mind.</p>
+<ul>
+<li>Being one step from an <em>au pai</em> in the 2000’s.</li>
+<li>How to make your community feel less disenfranchised in politics;
+regardless of their ethics, morals, and activities; reminding them to
+research and vote their conscience always works well; want to hear how I
+never get yelled at?
+<ul>
+<li>tl;dr “vote conscience, idk what you do; here resources research
+voting records and keep ’em accountable they are your employee”.
+<ul>
+<li>openstates.org</li>
+<li>billtrack50.com</li>
+<li>congressionaldish.com</li>
+</ul></li>
+</ul></li>
+<li>How lessons from signals analysis/radio do impact every day
+life.</li>
+<li>Let’s talk about the history of locks, and where we are now; and
+where we might want to be.</li>
+<li>Making a less connected home more connected</li>
+<li>Why you should shove your house through an <code>rsyslog</code>
+concentrator.</li>
+<li>Clean ops gallows humour – what’s a joke is I think this can be
+cleaned up.</li>
+<li>Incident response tales</li>
+</ul>
+</body>
+</html>
